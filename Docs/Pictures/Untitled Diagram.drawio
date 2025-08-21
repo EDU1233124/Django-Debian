@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="e3VpnDk_0vd9zR638Umj">
+    <mxGraphModel dx="971" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KCHkb30mvy24WLBht9D_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-1" target="KCHkb30mvy24WLBht9D_-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Internet&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;sketch=0;aspect=fixed;html=1;verticalAlign=middle;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="378" y="-860" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-2" target="KCHkb30mvy24WLBht9D_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-2" value="Työasema" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-840" width="89" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-14" value="Reititin" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;" vertex="1" parent="1">
+          <mxGeometry x="559.26" y="-769.75" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-15" target="KCHkb30mvy24WLBht9D_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-15" value="Palomuuri" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.firewall;" vertex="1" parent="1">
+          <mxGeometry x="682.25" y="-810" width="72.26" height="89.6" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-16" target="KCHkb30mvy24WLBht9D_-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="-610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=async;endFill=1;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-16" target="KCHkb30mvy24WLBht9D_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-16" value="Lähiverkko&amp;nbsp;&lt;div&gt;192.168.196. 0/24&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.switch;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-640" width="92" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-19" value="Debian 13" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=light-dark(#f5c532, #281d00);strokeColor=#d6b656;gradientColor=light-dark(#f8f1f1, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="495" y="-540" width="320" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-18" value="PostfreSQL 13" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-410" width="54.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-17" value="Nginx" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-410" width="54.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-30" value="Nginx" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
+          <mxGeometry x="627.76" y="-410" width="54.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-21" target="KCHkb30mvy24WLBht9D_-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-21" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-480" width="54.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-26" target="KCHkb30mvy24WLBht9D_-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="-580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="318" y="-560" />
+              <mxPoint x="606" y="-560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-26" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
+          <mxGeometry x="290.26" y="-330" width="54.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-27" value="Django" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
+          <mxGeometry x="614.26" y="-523.5" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-28" value="Tablet tietokone" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tablet_2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-742" width="82" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KCHkb30mvy24WLBht9D_-29" target="KCHkb30mvy24WLBht9D_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCHkb30mvy24WLBht9D_-29" value="Langattoman verkon tukisasema&lt;div&gt;(Router)&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.user_control;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-764" width="103" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
